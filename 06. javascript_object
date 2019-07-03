@@ -1,0 +1,31 @@
+//배열 선언
+var arrNum01 = new Array();
+var arrNum02 = new Array("a","b","c","d");
+var arrNum03 = [1,2,3,4];
+
+//배열 값 넣기
+for(var i=0; i<5; i++){
+  arrNum[i]=i;
+}
+
+//배열 관련 함수
+.push
+.pop
+.shift
+  ...
+.concat
+.slice
+
+//객체 생성
+var obj01 = {'a':100, 'b':200, 'c':300};
+
+var obj02 = {};
+obj['a'] = 100;
+obj['b'] = 100;
+obj['c'] = 100;
+
+var obj = new object();
+obj.a = 100;
+obj.b = 200;
+obj.c = 300;
+
