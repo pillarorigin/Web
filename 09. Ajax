@@ -1,0 +1,21 @@
+$.ajax
+
+$("#id").click(function(){
+    $.ajax({
+        type:"POST",
+        url:"/api/list",
+        data : {name : "value값"},
+        dataType : "data",
+        success: function(data){
+            console.log(data);
+        },
+        error: function(xhr, status, error) {
+            alert(error);
+        }   
+    });
+});
+
+//Get
+
+//POST
+
