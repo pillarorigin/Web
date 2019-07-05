@@ -1,0 +1,6 @@
+<% jscode %>
+
+<%= variable %>
+
+<%- !escape html %>
+
